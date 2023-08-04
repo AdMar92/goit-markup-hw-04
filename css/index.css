@@ -154,6 +154,12 @@ ul {
 .background {
   background-color: var(--color-hero-background);
   padding: 188px 0;
+  margin: auto;
+}
+
+.image-background {
+  background-image: url(https://s3-alpha-sig.figma.com/img/7c8d/46d4/7e83b6c8ee4603ea892aa8aaebb3c5fe?Expires=1691971200&Signature=aPD~uvQd8khDdWsyp4I~sKxn~W2D~MuQlbv0EhLFYHkWJQOzlT55LGhLI3pdaDuzx-dJJbyui7u2aYqRJqef2wNy5aTpbuKIoopFkwo2vMOUllRGI6krJDA2bGxqasDFZa5zOv5yfcsRJ3lZ4y366acgfOCnz6jDYuOuOFq35e9Uo9Ckhohuuu-YQo20IG19-lKJ13shmrut5e9287LwTAxRCb6iLD4FYh82MklFE4AyXzwujoEQb~cGZtW631FEqXamEkyI8Iou2ZpHgbaLQOFG~Hwwg9QR88z2vW~JHDo84BtPm1DQkMJPH5wc5iDx6ekgBVflWvxRr3gRmwBNHQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+  object-fit: scale-down;
 }
 .menu-link {
   list-style: none;
@@ -344,10 +350,22 @@ ul {
   align-items: stretch;
   box-sizing: border-box;
 }
-.flex-box {
-  justify-content: space-between;
-  padding-left: auto;
+
+.atuts-box {
+  width: 264px;
+  height: 112px;
+  background-color: var(--color-cloud);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+.atuts-icons {
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+}
+
 .flex-pics {
   gap: 24px;
 }
@@ -361,7 +379,8 @@ ul {
 }
 
 .fix-div {
-  padding: 32px, 16px;
+  justify-content: space-between;
+  padding: 32px 16px;
 }
 .chapter-title {
   color: var(--navyblue, #2e2f42);
