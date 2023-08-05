@@ -76,6 +76,7 @@ body {
 
 ul {
   display: flex;
+  list-style: none;
 }
 .flex-logo {
   justify-content: flex-start;
@@ -163,6 +164,19 @@ ul {
   background-position: center;
   padding: 220px;
   margin: auto;
+}
+
+.social-icons-style {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  gap: 24px;
+  padding-top: 8px;
+}
+
+.social-icons {
+  width: 16px;
+  height: 16px;
 }
 
 .menu-link {
@@ -398,7 +412,6 @@ ul {
 }
 .background-footer {
   background: var(--navyblue, #2e2f42);
-  flex-shrink: 0;
   padding: 100px 0;
 }
 .flex-footer {
