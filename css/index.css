@@ -169,7 +169,6 @@ ul {
 .social-icons-style {
   display: flex;
   justify-content: center;
-  align-self: center;
   gap: 24px;
   padding-top: 8px;
 }
@@ -177,6 +176,9 @@ ul {
 .social-icons {
   width: 16px;
   height: 16px;
+  color: #fff;
+  background-color: #007bff; /* Kolor tła ikony */
+  border-radius: 50%; /* Ustawienie kształtu na okrąg */
 }
 
 .menu-link {
