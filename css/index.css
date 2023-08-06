@@ -109,7 +109,7 @@ ul {
   border-top: 0;
 }
 .pics-decoration {
-  cursor: pointer;
+  display: block;
 }
 
 .pics-decoration:hover,
