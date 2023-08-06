@@ -197,6 +197,10 @@ ul {
   width: 40px;
 }
 
+.footer-box {
+  margin-left: 120px;
+}
+
 .icons-item-footer {
   background: var(--color-iris);
   border-radius: 50%;
@@ -211,7 +215,6 @@ ul {
   background: var(--color-green);
 }
 .social-item-position {
-  padding-left: 120px;
   gap: 16px;
 }
 .icons-item:hover,
@@ -375,8 +378,7 @@ ul {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-left: 120px;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 .logo-size {
   width: 104px;
@@ -428,7 +430,7 @@ ul {
 }
 .item-logo {
   border-radius: 4px;
-  border: 1px solid var(--lightslate, #8e8f99);
+  border: 1px solid currentColor;
   width: 168px;
   height: 88px;
   display: flex;
@@ -439,7 +441,6 @@ ul {
 
 .item-logo:hover,
 .item-logo:focus {
-  border: 1px solid var(--color-ocean);
   color: var(--color-ocean);
 }
 
@@ -505,7 +506,7 @@ ul {
   padding: 100px 0;
 }
 .flex-footer {
-  padding-top: 100px;
+  display: flex;
 }
 .footer-logo {
   color: var(--color-ocean);
