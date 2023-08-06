@@ -418,12 +418,20 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  fill: currentColor;
 }
 
 .item-logo:hover,
 .item-logo:focus {
-  fill: var(--color-ocean);
+  border: 1px solid var(--color-ocean);
+}
+
+.customers-logo-color {
+  fill: currentColor;
+}
+
+.customers-logo-color:hover,
+.customers-logo-color:focus {
+  fill: var(--color-navy-blue);
 }
 .forth-section {
   padding-top: 120px;
