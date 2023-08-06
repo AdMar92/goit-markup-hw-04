@@ -167,12 +167,13 @@ ul {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(https://s3-alpha-sig.figma.com/img/7c8d/46d4/7e83b6c8ee4603ea892aa8aaebb3c5fe?Expires=1691971200&Signature=aPD~uvQd8khDdWsyp4I~sKxn~W2D~MuQlbv0EhLFYHkWJQOzlT55LGhLI3pdaDuzx-dJJbyui7u2aYqRJqef2wNy5aTpbuKIoopFkwo2vMOUllRGI6krJDA2bGxqasDFZa5zOv5yfcsRJ3lZ4y366acgfOCnz6jDYuOuOFq35e9Uo9Ckhohuuu-YQo20IG19-lKJ13shmrut5e9287LwTAxRCb6iLD4FYh82MklFE4AyXzwujoEQb~cGZtW631FEqXamEkyI8Iou2ZpHgbaLQOFG~Hwwg9QR88z2vW~JHDo84BtPm1DQkMJPH5wc5iDx6ekgBVflWvxRr3gRmwBNHQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+    url(/goit-markup-hw-04/images/people-office.jpg);
   background-size: cover;
   max-width: 1440px;
+  height: 600px;
   background-position: center;
-  padding: 220px;
-  margin: auto;
+  padding: 188px 0;
+  margin: 0 auto;
 }
 
 .social-icons-style {
@@ -185,15 +186,15 @@ ul {
 .social-icons {
   width: 16px;
   height: 16px;
-  color: #fff;
 }
 .icons-item {
-  padding: 12px;
   background: var(--color-iris);
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 40px;
+  width: 40px;
 }
 
 .social-item-position {
@@ -202,7 +203,7 @@ ul {
 }
 .icons-item:hover,
 .icons-item:focus {
-  background: var(--color-green);
+  background: var(--color-ocean);
 }
 .menu-link {
   list-style: none;
@@ -366,9 +367,9 @@ ul {
   height: 56px;
 }
 .customers-logo {
-  width: 164px;
-  height: 84px;
-  padding: 16px;
+  width: 104px;
+  height: 56px;
+  fill: currentColor;
 }
 .box-cstmrs {
   display: inline-flex;
@@ -388,7 +389,6 @@ ul {
   letter-spacing: 0.02em;
   align-items: baseline;
   margin-bottom: 8px;
-  padding-top: 8px;
 }
 .h-team {
   font-size: 20px;
@@ -409,17 +409,25 @@ ul {
 }
 .thrd-section {
   padding-bottom: 120px;
-  padding-top: 120px;
 }
 .item-logo {
   border-radius: 4px;
   border: 1px solid var(--lightslate, #8e8f99);
+  width: 168px;
+  height: 88px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: currentColor;
+}
+
+.item-logo:hover,
+.item-logo:focus {
+  fill: var(--color-ocean);
 }
 .forth-section {
   padding-top: 120px;
   padding-bottom: 120px;
-  padding-left: 156px;
-  padding-right: 156px;
 }
 .text-team {
   color: var(--color-text);
@@ -434,6 +442,7 @@ ul {
   padding-left: 24px;
   align-items: stretch;
   box-sizing: border-box;
+  margin-bottom: 8px;
 }
 
 .atuts-box {
@@ -444,6 +453,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 8px;
 }
 .atuts-icons {
   width: 64px;
