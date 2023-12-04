@@ -1,0 +1,376 @@
+:root {
+  --IRIS: #4d5ae5;
+  --OCEAN: #404bbf;
+  --NAVY-BLUE: #2e2f42;
+  --GREEN: #31d0aa;
+  --SLATE: #434455;
+  --LIGHT-SLATE: #8e8f99;
+  --CORNFLOWER: #e7e9fc;
+  --CLOUD: #f4f4fd;
+  --NAVY-BLUE-modal: #2e2f4266;
+  --GREY: #2e2f42;
+  --WHITE: #ffffff;
+  --modal-background: #fcfcfc;
+  --font-primary: "Roboto", sans-serif;
+  --font-secondary: "Raleway", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-primary);
+  color: var(--SLATE);
+  background-color: var(--WHITE);
+}
+
+img {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.logo {
+  color: var(--IRIS);
+  font-family: var(--font-secondary);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  margin-right: 76px;
+}
+.header-logo {
+  color: var(--NAVY-BLUE);
+}
+
+/* --------NAGŁOWEK--------  */
+
+.header-floor {
+  border-bottom: 1px solid var(--CORNFLOWER);
+  padding: 24px 0;
+}
+.menu-item {
+  color: var(--NAVY-BLUE);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding: 24px 0;
+}
+
+.menu-item:focus,
+.menu-item:hover {
+  color: var(--OCEAN);
+}
+.container {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.flex-header {
+  display: flex;
+}
+
+.menu-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.address-style {
+  font-style: normal;
+}
+
+.flex-menu {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.flex-address {
+  display: flex;
+  gap: 40px;
+}
+.address-position {
+  margin-left: auto;
+}
+
+.address-item {
+  color: var(--SLATE);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.address-item:focus,
+.address-item:hover {
+  color: var(--OCEAN);
+}
+
+/* -------------SEKCJA PIERWSZA---------------- */
+.section-background {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(/goit-markup-hw-04/images/people-office.jpg);
+  background-size: cover;
+  max-width: 1440px;
+  height: 600px;
+  background-position: center;
+  padding: 188px 0;
+  margin: 0 auto;
+}
+
+.title-style {
+  color: var(--WHITE);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+  max-width: 496px;
+  margin: auto;
+  padding-bottom: 48px;
+}
+.position {
+  flex-direction: column;
+}
+
+.btn-color {
+  background-color: var(--IRIS);
+  color: var(--WHITE);
+  /* Button Text */
+  font-family: var(--font-primary);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  cursor: pointer;
+}
+.btn-flex {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  margin: 0 auto;
+}
+
+.btn-color:hover,
+.btn-color:focus {
+  background: var(--OCEAN);
+}
+
+.btn-text {
+  color: var(--WHITE);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+}
+
+.header-small-text {
+  color: var(--NAVY-BLUE);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  align-items: baseline;
+  margin-bottom: 8px;
+}
+.small-text {
+  color: var(--SLATE);
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+/* ----------------SEKCJA 2-------------------------- */
+.section-two {
+  padding: 120px 0;
+}
+.flex-list {
+  display: flex;
+  gap: 24px;
+}
+
+.service-item {
+  width: calc((100% - 72px) / 4);
+  max-width: fit-content;
+}
+
+/*--------- -------SEKCJA TRZECIA------------- */
+.section-three {
+  padding-bottom: 120px;
+}
+.section-title {
+  color: var(--NAVY-BLUE);
+  text-align: center;
+  /* text style */
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+}
+
+.thrd-list {
+  flex-basis: calc((100% - 3 * 16px) / 3);
+}
+
+/* ------------------SEKCJA CZWARTA-------------------*/
+
+.section-four {
+  padding: 120px 0;
+  background-color: var(--CLOUD);
+}
+
+.flex-team {
+  padding: 32px 0px;
+}
+
+.name-position {
+  text-align: center;
+}
+/*---------------SEKCJA PIĄTA----------------------*/
+.section-five {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.customers-flex {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.cstmr-logo-style {
+  border: 1px solid var(--LIGHT-SLATE);
+  color: var(--LIGHT-SLATE);
+  border-radius: 4px;
+  border: 1px solid currentColor;
+  width: 168px;
+  height: 88px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.customers-logo {
+  width: 104px;
+  height: 56px;
+  fill: currentColor;
+}
+
+/*---------- SEKCJA PORTFOLIO BUTTONS------------- */
+.section-btns {
+  padding-bottom: 120px;
+  padding-top: 96px;
+}
+
+.btn-items {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+.buttons-style {
+  color: var(--IRIS);
+  background-color: var(--CLOUD);
+  /* Button Text */
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  cursor: pointer;
+  display: flex;
+  padding: 12px 24px;
+  border: 1px solid var(--CORNFLOWER);
+  border-radius: 4px;
+}
+.buttons-style:hover,
+.buttons-style:focus {
+  background: var(--OCEAN);
+  color: var(--WHITE);
+  border: 1px solid transparent;
+}
+
+.pics-item {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.pics-link {
+  width: calc((100% - 48px) / 3);
+}
+
+.pics-name {
+  padding: 32px 16px;
+  border: 1px solid var(--CORNFLOWER);
+  border-top: none;
+}
+.background-list {
+  background-color: var(--WHITE);
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  width: calc((100% - 48px) / 3);
+}
+
+.footer-logo {
+  color: var(--CLOUD);
+}
+
+.footer-background {
+  background: var(--GREY);
+  padding: 100px 0;
+}
+
+.footer-item {
+  color: var(--IRIS);
+  font-family: var(--font-secondary);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+
+.footer-text {
+  color: var(--CLOUD);
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  max-width: 264px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
