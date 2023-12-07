@@ -219,11 +219,6 @@ ul {
   height: 112px;
 }
 
-.atuts-icons {
-  width: 264px;
-  height: 112px;
-  padding: 24px 100px;
-}
 .service-item {
   width: calc((100% - 72px) / 4);
 }
