@@ -210,10 +210,15 @@ ul {
   gap: 24px;
 }
 .atuts-box {
+  display: flex;
   border-radius: 4px;
   background: var(--CLOUD, #f4f4fd);
   margin-bottom: 8px;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
 }
+
 .atuts-icons {
   width: 264px;
   height: 112px;
@@ -252,6 +257,10 @@ ul {
 
 .flex-team {
   padding: 32px 0px;
+}
+
+.team-icons-flex {
+  display: flex;
 }
 
 .name-position {
